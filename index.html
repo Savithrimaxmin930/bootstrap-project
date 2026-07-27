@@ -1,0 +1,385 @@
+a<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+
+    <!-- Logo -->
+    <a class="navbar-brand fw-bold fs-3" href="#">
+      🍽️ Spice Garden
+    </a>
+
+    <!-- Mobile Menu Button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Menu</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gallery</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+
+        <li class="nav-item ms-lg-3">
+          <a href="#" class="btn btn-warning rounded-pill px-4">
+            Reserve Table
+          </a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+<!-- Navbar End -->
+ <!-- Carousel Start -->
+<div id="restaurantCarousel" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#restaurantCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#restaurantCarousel" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#restaurantCarousel" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- Carousel Items -->
+  <div class="carousel-inner">
+
+    <!-- Slide 1 -->
+    <div class="carousel-item active">
+      <img src="./images/ChatGPT Image Jul 22, 2026, 10_39_13 PM.png" class="d-block w-100" alt="Food 1">
+      <div class="carousel-caption">
+        <h1>Welcome to Spice Garden</h1>
+        <p>Enjoy Delicious Food with Your Family</p>
+        <a href="#" class="btn btn-warning">Order Now</a>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      <img src="./images/WhatsApp Image 2026-07-22 at 10.55.41 PM.jpeg" class="d-block w-100" alt="Food 2">
+      <div class="carousel-caption">
+        <h1>Fresh & Tasty Meals</h1>
+        <p>Made with Fresh Ingredients</p>
+        <a href="#" class="btn btn-warning">View Menu</a>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="carousel-item">
+      <img src="images/coffeeedit.jpeg" class="d-block w-100" alt="Food 3">
+      <div class="carousel-caption">
+        <h1>Reserve Your Table</h1>
+        <p>Book Your Table for a Great Dining Experience</p>
+        <a href="#" class="btn btn-warning">Book Now</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#restaurantCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#restaurantCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+</div>
+<!-- Carousel End -->
+ <!-- Menu Section -->
+<section class="container py-5">
+    <div class="text-center mb-5">
+        <h2 class="fw-bold">Our Popular Menu</h2>
+        <p>Fresh, Delicious & Made with Love</p>
+    </div>
+
+    <div class="row g-4">
+
+        <!-- Card 1 -->
+        <div class="col-md-4">
+            <div class="card shadow border-0 h-100">
+                <img src="images/ChatGPT Image Jul 25, 2026, 12_41_51 PM.png" class="card-img-top" alt="Burger">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Classic Burger</h4>
+                    <p class="card-text">
+                        Juicy beef burger with crispy fries and fresh vegetables.
+                    </p>
+                    <h5 class="text-danger">₹249</h5>
+                    <a href="#" class="btn btn-warning">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+            <div class="card shadow border-0 h-100">
+                <img src="images/ChatGPT Image Jul 25, 2026, 12_46_02 PM.png" class="card-img-top" alt="Coffee">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Cappuccino</h4>
+                    <p class="card-text">
+                        Freshly brewed coffee with rich aroma and creamy milk foam.
+                    </p>
+                    <h5 class="text-danger">₹149</h5>
+                    <a href="#" class="btn btn-warning">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+            <div class="card shadow border-0 h-100">
+                <img src="images/ChatGPT Image Jul 25, 2026, 12_42_09 PM.png" class="card-img-top" alt="Dessert">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Chocolate Dessert</h4>
+                    <p class="card-text">
+                        Rich chocolate dessert served with fresh cream and toppings.
+                    </p>
+                    <h5 class="text-danger">₹199</h5>
+                    <a href="#" class="btn btn-warning">Order Now</a>
+                </div>
+            </div>
+        </div>
+          <!-- Card 4 -->
+
+                <div class="col-lg-4 col-md-6">
+            <div class="card shadow h-100">
+                <img src="images/ChatGPT Image Jul 25, 2026, 02_00_39 PM.png" class="card-img-top" alt="Pizza">
+                <div class="card-body text-center">
+                    <h4> Margherita Pizza</h4>
+                    <p>Cheesy pizza with fresh basil and tomato sauce.</p>
+                    <h5 class="text-danger">₹299</h5>
+                    <a href="#" class="btn btn-warning">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- Card 5 -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card shadow h-100">
+                <img src="images/ChatGPT Image Jul 25, 2026, 02_01_33 PM.png" class="card-img-top" alt="Pasta">
+                <div class="card-body text-center">
+                    <h4>Creamy White Sauce Pasta</h4>
+                    <p>Creamy pasta with herbs and cheese.</p>
+                    <h5 class="text-danger">₹279</h5>
+                    <a href="#" class="btn btn-warning">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card shadow h-100">
+                <img src="images/ChatGPT Image Jul 25, 2026, 02_02_13 PM.png" class="card-img-top" alt="Salad">
+                <div class="card-body text-center">
+                    <h4> Caesar Salad</h4>
+                    <p>Fresh vegetables with creamy dressing.</p>
+                    <h5 class="text-danger">₹199</h5>
+                    <a href="#" class="btn btn-warning">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    </div>
+</section>
+<!-- Price List Section -->
+<section class="container py-5">
+    <div class="text-center mb-4">
+        <h2 class="fw-bold">Food Price List</h2>
+        <p>Explore Our Delicious Menu & Prices</p>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-hover table-bordered text-center align-middle">
+
+            <thead class="table-dark">
+                <tr>
+                    <th>S.No</th>
+                    <th>Food Item</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>1</td>
+                    <td>Classic Burger</td>
+                    <td>Burger</td>
+                    <td>₹249</td>
+                    <td><span class="badge bg-success">Available</span></td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Cappuccino</td>
+                    <td>Coffee</td>
+                    <td>₹149</td>
+                    <td><span class="badge bg-success">Available</span></td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Chocolate Dessert</td>
+                    <td>Dessert</td>
+                    <td>₹199</td>
+                    <td><span class="badge bg-success">Available</span></td>
+                </tr>
+                            <tr>
+                <td>4</td>
+                <td> Margherita Pizza</td>
+                <td>Pizza</td>
+                <td>₹299</td>
+                <td><span class="badge bg-success">Available</span></td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td> Classic Cheeseburger</td>
+                <td>Burger</td>
+                <td>₹249</td>
+                <td><span class="badge bg-success">Available</span></td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td> Creamy White Sauce Pasta</td>
+                <td>Pasta</td>
+                <td>₹279</td>
+                <td><span class="badge bg-success">Available</span></td>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td> Caesar Salad</td>
+                <td>Salad</td>
+                <td>₹199</td>
+                <td><span class="badge bg-success">Available</span></td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td>Chocolate Lava Cake</td>
+                <td>Dessert</td>
+                <td>₹229</td>
+                <td><span class="badge bg-success">Available</span></td>
+            </tr>
+
+      
+
+            </tbody>
+
+        </table>
+    </div>
+</section>
+
+
+<!-- Footer Start -->
+<footer class="bg-dark text-white pt-5 pb-3">
+
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Restaurant Info -->
+            <div class="col-md-4 mb-4">
+                <h3 class="text-warning">🍽️ Spice Garden</h3>
+                <p>
+                    Experience delicious food, refreshing drinks,
+                    and unforgettable dining with family & friends.
+                </p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-md-2 mb-4">
+                <h5 class="text-warning">Quick Links</h5>
+
+                <ul class="list-unstyled">
+                    <li><a href="#" class="footer-link">Home</a></li>
+                    <li><a href="#" class="footer-link">About</a></li>
+                    <li><a href="#" class="footer-link">Menu</a></li>
+                    <li><a href="#" class="footer-link">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-md-3 mb-4">
+                <h5 class="text-warning">Contact</h5>
+
+                <p><i class="fa-solid fa-location-dot" style="color: rgb(27, 34, 127);">📍 </i>Chennai, Tamil Nadu</p>
+                <p>📞 +91 98765 43210</p>
+                <p>✉️ info@spicegarden.com</p>
+            </div>
+
+            <!-- Opening Hours -->
+            <div class="col-md-3 mb-4">
+                <h5 class="text-warning">Opening Hours</h5>
+
+                <p>Monday - Friday</p>
+                <p>10:00 AM - 10:00 PM</p>
+
+                <p>Saturday - Sunday</p>
+                <p>9:00 AM - 11:00 PM</p>
+            </div>
+
+        </div>
+
+        <hr class="border-secondary">
+
+        <div class="text-center">
+            <p class="mb-2">
+                © 2026 Spice Garden Restaurant. All Rights Reserved.
+            </p>
+
+            <div>
+                <a href="#" class="social-icon"><i class="fa-solid fa-globe" style="color: rgb(31, 19, 170);">🌐</i></a>
+                <a href="#" class="social-icon"><i class="fa-solid fa-mobile" style="color: rgb(27, 34, 127);">📘</i></a>
+                <a href="#" class="social-icon"><i class="fa-solid fa-camera" style="color: rgb(151, 158, 252);">📷</i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-youtube" style="color: rgb(206, 47, 7);">▶️</i></a>
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+<!-- Footer End -->
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+
+
+.navbar {
+    padding: 15px 0;
+}
+
+.nav-link {
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+.navbar-brand {
+    color: #ffc107 !important;
+}
+
+
+.carousel-item img{
+    height: 600px;
+    object-fit: cover;
+}
+
+.carousel-caption{
+    bottom: 30%;
+}
+
+.carousel-caption h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.carousel-caption p{
+    font-size: 20px;
+}
+
+.carousel-caption .btn{
+    margin-top: 10px;
+    padding: 10px 25px;
+}
+
+
+.card img{
+    height:250px;
+    object-fit:cover;
+}
+
+.card{
+    transition:0.3s;
+    border-radius:15px;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.btn-warning{
+    border-radius:30px;
+    padding:8px 20px;
+}
+
+table{
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.table th{
+    background:#212529;
+    color:#fff;
+    padding:15px;
+}
+
+.table td{
+    padding:15px;
+    font-size:17px;
+}
+
+.table tbody tr:hover{
+    background:#fff8e1;
+    transition:0.3s;
+}
+
+.badge{
+    padding:8px 15px;
+    font-size:14px;
+}
+footer{
+    background:#1f1f1f;
+}
+ 
+ .footer-link{
+    color:#fff;
+    text-decoration:none;
+    display:block;
+    margin:10px 0;
+    transition:.3s;
+ } 
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+
+ul li a:hover{
+    color: #ffc107;
+    padding-left: 8px;
+}
+
+
+
+.footer-link:hover{
+    color:#ffc107;
+    padding-left:8px;
+    
+}
+
+.social-icon{
+    text-decoration:none;
+    font-size:24px;
+    margin:0 10px;
+    transition:.3s;
+}
+
+.social-icon:hover{
+    transform:scale(1.2);
+}
